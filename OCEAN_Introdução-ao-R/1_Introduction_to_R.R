@@ -123,6 +123,7 @@ vetor2 <- 1:10
 #LISTA
 lista1 <- list("Airbus","A", 320, TRUE)
 
+
 #MATRIZ
 matriz1 <- matrix(
   c(1,0,0,
