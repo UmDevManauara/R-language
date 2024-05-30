@@ -2,6 +2,7 @@
 
 #https://archive.ics.uci.edu/dataset/14/breast+cancer
 BC <- read_excel("BC.xlsx")
+View(BC)
 
 
 # --------------------------> EXPLORANDO OS DADOS
@@ -75,3 +76,4 @@ dados <- data.frame(
 
 # Chamando a função para plotar o gráfico de barras
 plot_grafico_barras(dados, "variavel_binaria")
+
